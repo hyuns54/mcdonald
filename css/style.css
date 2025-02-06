@@ -1,0 +1,35 @@
+:root{
+  --main-font:'Cooper Black', sans-serif;
+  --sub-font:'Pretendard-Regular';
+  --main-color:'#E71200';
+  --sub-color:'#FEC007'
+}
+
+body{
+  font-size: 1.6rem;
+  color: var(--black);
+  font-family: 'Cooper Black', sans-serif;                  
+  line-height: 1.5;
+}
+
+.inner{
+  max-width: 1700px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+.header{}
+.header .inner{}
+.header .inner h1{
+ 
+}
+.header .inner h1 a{
+  display: block;
+  width: 64px;
+  height: 65px;
+  background: url(../image/common/logo.png) no-repeat center center;
+}
+.header .inner nav{}
+.header .inner nav .gnb{}
+.header .inner nav .gnb li{}
+.header .inner nav .gnb li a{}
