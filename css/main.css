@@ -157,6 +157,7 @@ body{
 }
 .new_menu .nm .swiper-wrapper .swiper-slide  .new .txt_box h4{
   font-size: 1.8rem;
+  font-family: var(--sub-font);
 }
 .new_menu .nm .swiper-wrapper .swiper-slide .new .txt_box .btn_more{
   display: inline-block;
@@ -172,11 +173,12 @@ body{
   bottom: 20px;
   right: 20px;
   cursor: pointer;
+  font-family: var(--sub-font);
 }
 @media (max-width:1200px){
   .new_menu{
     margin-top: 80px;
-    padding: 5%;
+    padding: 0 5%;
   }
   .new_menu .nm .swiper-wrapper .swiper-slide{
     width: 100%;
@@ -193,7 +195,12 @@ body{
     font-size: 1.6rem;
     border-radius: 12px;
   }
-  
+}
+@media (max-width:486px){
+  .new_menu{
+    margin-top: 30px;
+    padding: 0 5%;
+  }
 }
 /* visual */
 .visual{
@@ -308,7 +315,7 @@ body{
   }
 
   .visual .txtbox .line_potato img{
-    width: 80%;
+    width: 50%;
   }
   .visual .txtbox .last{
     font-size: 1.8rem;
@@ -355,6 +362,7 @@ body{
   font-weight: 600;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: var(--sub-font);
 }
 .quality .inner .slide_box .left_line .button_toggle button:hover{
   background: var(--main-color);
@@ -382,6 +390,7 @@ body{
 .quality .inner .slide_box .left_line .swiper .swiper-wrapper .swiper-slide  .txt_box p{
   font-weight: 400;
   text-align: center;
+  font-family: var(--sub-font);
 }
 
 @media (max-width:1200px){
@@ -489,9 +498,12 @@ body{
   padding: 150px;
   font-family: var(--sub-font);
 }
-.crew .inner .crew_banner .crew_txt .text_box{}
+.crew .inner .crew_banner .crew_txt .text_box{
+  font-family: var(--sub-font);
+}
 .crew .inner .crew_banner .crew_txt .text_box h3{
   font-size: 2.8rem;
+  font-family: var(--sub-font);
 }
 .crew .inner .crew_banner .crew_txt .text_box p{
   font-size: 1.6rem;
@@ -507,6 +519,7 @@ body{
   height: 90px;
   border-radius: 12px;
   cursor: pointer;
+  font-family: var(--sub-font);
 }
 @media (max-width:1200px){
   .crew .inner{
@@ -535,16 +548,18 @@ body{
   }
   .crew .inner .txt_wrap .txt_box{
     font-size: 2.2rem;
-    padding: 100px 20px;
   }
   .crew .inner .txt_wrap .txt_orner{
-    padding: 50px;
+    padding: 30px;
   }
   .crew .inner .crew_banner .crew_txt{
     width:100%;
     border-left: none;
     border-top: 1px solid var(--main-color);
-    padding: 50px;
+    padding: 30px;
+  }
+  .crew .inner .crew_banner .crew_txt .text_box h3{
+    font-size: 2.4rem;
   }
   .crew .inner .crew_banner .crew_txt .text_box{
     display: flex;
@@ -554,6 +569,10 @@ body{
     justify-content: center;
   }
   .crew .inner .crew_banner .crew_image{
+    width: 100%;
+  }
+  .crew .inner .crew_banner .crew_image .image_box{
+    padding: 30px;
     width: 100%;
   }
 }
