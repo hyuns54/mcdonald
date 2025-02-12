@@ -177,7 +177,7 @@ body{
 }
 @media (max-width:1200px){
   .new_menu{
-    margin-top: 80px;
+    margin-top: 50px;
     padding: 0 5%;
   }
   .new_menu .nm .swiper-wrapper .swiper-slide{
